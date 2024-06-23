@@ -1,0 +1,326 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* navbar started */
+.logo{
+    width: 165px;
+}
+.nav-text{
+    font-size: 15px;
+    font-weight: 300;
+}
+.franchise{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.order-btn{
+    background-color: #ed1c24;
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.arrow-icon{
+    color: #ed1c24;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+/* navbar ended */
+
+/* container started */
+.container-img{
+    width: 100%;
+}
+/* container ended */
+ 145 changes: 145 additions & 0 deletions145  
+HTML-&-CSS/class-13(salt-&-Pepper)/styles/utility.css
+Copied!
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+}
+
+/* utility classes */
+
+
+/* flex classes started */
+
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.gap-5{
+    gap: 25px;
+}
+
+/* flex classes ended */
+
+/* margin classes started */
+.m1{
+    margin: 5px;
+}
+.m2{
+    margin: 10px;
+}
+.m3{
+    margin: 15px;
+}
+.m4{
+    margin: 20px;
+}
+.m5{
+    margin: 25px;
+}
+.mt1{
+    margin-top: 5px;
+}
+.mt2{
+    margin-top: 10px;
+}
+.mt3{
+    margin-top: 15px;
+}
+.mt4{
+    margin-top: 20px;
+}
+.mt5{
+    margin-top: 25px;
+}
+
+.mx1{
+    margin: 0px 5px;
+}
+
+.my-{
+    margin: 5px 0px;
+}
+/* margin classes ended */
+
+
+/* padding classes start */
+.p1{
+    padding: 5px;
+}
+.p2{
+    padding: 10px;
+}
+.p3{
+    padding: 15px;
+}
+.p4{
+    padding: 20px;
+}
+.p5{
+    padding: 25px;
+}
+.pt1{
+    padding-top: 5px;
+}
+.pt2{
+    padding-top: 10px;
+}
+.pt3{
+    padding-top: 15px;
+}
+.pt4{
+    padding-top: 20px;
+}
+.pt5{
+    padding-top: 25px;
+}
+
+.px1{
+    padding: 0px 5px;
+}
+
+.py-{
+    padding: 5px 0px;
+}
+
+/* padding classes ended */
+
+
+.text-center{
+    text-align: center;
+}
+
+.border-sm{
+    border: 1px solid black;
+}
+
+.bg-dark{
+    background-color: #000000;
+}
+.text-white{
+    color: #ffffff;
+}
+.container-2{
+    text-align: center;
+
+}
+.parent-container-2{
+    height: auto;
+    
+    
+}
+.child-container-2{
+    /* width: 280px; */
+    
+    width: 33%;
+    text-align: center;
+}
+.bg-img{
+    background-image: url('/Resources/bg_img.webp');
+    /* background-color: #000000;*/
+} 
+.SnP-Franchise-list{
+    justify-content: space-around;
+    column-gap: 20px;
+    align-content: center;
+    margin-left: 40px;
+    height: ;
+}
+.SnP-Franchise-list-width{
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    
+}
+.SnP-Franchise-list-img{
+    width: 350px;
+    height: 250px;
+}
+.text-size{
+    font-size: large;
+}
+.white-box{
+    width: 400px;
+    height: 350px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 32px;
+    text-size-adjust: 100%;
+    border-radius: 2%;
+    max-width: 100%;
+  
+    
+    
+
+}
+/* .white-box-image{
+    margin-left: 202px;
+    margin-right: 202px;
+} */
+ .socialfeed{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 40px;
+    font-weight: 600;
+    
+ }
+
+ .menu-parent{
+    width: 100%;
+    padding-bottom: 140px;
+ }
+
+ .menu-child{
+      width: 100%;
+      /* height: 250px; */
+
+ }
+ .width4{
+      width: 20%;
+ }
+ .pg-end-parent{
+           width: 100%;
+           column-gap: 40px;
+ }
+ .pg-end-child{
+           width: 25%;
+           font-size: 20px;
+           font-weight: lighter;
+           padding-left: 10px;
+           color: #ffffffb3
+ }
+ .ul{
+    list-style-type: none;
+ }
+
+ .introduction{
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }
+
+ .heading2{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }
+ #logo-text{
+    background-color: #000000;
+    color:#ffffff ;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    /* text-align: center; */
+    text-size-adjust: 100%;
+    /* margin-top: 200px; */
+    font-size: 4em;
+ }
+
+ #text-weight1{
+    font-weight: 500;
+}
+.bg-color-container{
+    background-color: #0f0f0f;
+}
+
+.SnP-Franchise-list-img1{
+    width: 350px;
+    height: 300px;
+    border-radius: 4px;
+}
+.#text-color-white{
+    color: #ffffff;
+}
