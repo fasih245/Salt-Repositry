@@ -340,3 +340,10 @@ html{
     margin-left: 50px;
     margin-right: 50px;
 }
+.bg_img{
+    width: 100%;
+    height: 700px;
+    background-image: url('https://static.tossdown.com/site/4beaa66e-dda0-460b-84e4-640fa692e00e.webp');
+    background-size: cover;
+    text-align: center;
+}
