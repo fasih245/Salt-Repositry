@@ -245,6 +245,11 @@ html{
     font-size: 18px;
     color: #e7e0e0ec;
 }
+.paragraph_white{
+    font-weight: lighter;
+    font-size: 18px;
+    color: #ffffff;
+}
 .text-red{
     color: #b30b0b;
     font-size: 20px;
@@ -333,5 +338,12 @@ align-content: flex-start;
 .float-{
     float: left;
     
+}
+.padding_tb{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mt_footer{
+margin-top: 200px;
 }
 

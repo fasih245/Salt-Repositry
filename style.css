@@ -324,3 +324,19 @@ html{
 .#text-color-white{
     color: #ffffff;
 }
+.width50{
+    width: 50%;
+}
+.height_book{
+    height: 650px;
+}
+.border_book{
+    border: 1px solid #ffffffb3;
+    height: 650px;
+    justify-content: 100%;
+    
+}
+.mp_book{
+    margin-left: 50px;
+    margin-right: 50px;
+}
