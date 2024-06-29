@@ -346,4 +346,20 @@ align-content: flex-start;
 .mt_footer{
 margin-top: 200px;
 }
+.font-weight-light{
+    font-weight: 300;
+    
+}
+.paddingl{
+    padding-left: 50px;
+}
+#text-allign-l{
+    text-align: left;
+}
+.gap-6{
+    gap: 150px;
+}
+.font-size30{
+    font-size: 30px;
+}
 
